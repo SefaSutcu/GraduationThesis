@@ -1,0 +1,741 @@
+:- include('adjectives.pl').
+:- include('adverbs.pl').
+:- include('allomorphs.pl').
+:- include('allomorphs_last_char_changed.pl').
+:- encoding(utf8).
+% accusative
+allomorph(ı, acc).
+allomorph(i, acc).
+allomorph(ü, acc).
+allomorph(u, acc).
+allomorph(yı, acc).
+allomorph(yi, acc).
+allomorph(yü, acc).
+allomorph(yu, acc).
+allomorph(nı, acc).
+allomorph(ni, acc).
+allomorph(nü, acc).
+allomorph(nu, acc).
+
+
+%locative
+allomorph(da, loc).
+allomorph(de, loc).
+allomorph(ta, loc).
+allomorph(te, loc).
+% thirdposs + nda
+allomorph(nda, loc).
+allomorph(nde, loc).
+% ne +yde
+allomorph(yda, loc).
+allomorph(yde, loc).
+
+
+
+% instrumental
+allomorph(le, inst).
+allomorph(la, inst).
+allomorph(yla, inst).
+allomorph(yle, inst).
+
+% dative
+allomorph(a, dat).
+allomorph(e, dat).
+allomorph(ya, dat).
+allomorph(ye, dat).
+allomorph(na, dat).
+allomorph(ne, dat).
+
+% ablative
+allomorph(dan, abl).
+allomorph(den, abl).
+allomorph(tan, abl).
+allomorph(ten, abl).
+allomorph(ndan, abl).
+allomorph(nden, abl).
+%
+
+
+%   1st person possesive
+allomorph(ım, firstposs).
+allomorph(im, firstposs).
+allomorph(üm, firstposs).
+allomorph(um, firstposs).
+allomorph(m, firstposs).
+allomorph(ımız, firstposs).
+allomorph(imiz, firstposs).
+allomorph(ümüz, firstposs).
+allomorph(umuz, firstposs).
+allomorph(mız, firstposs).
+allomorph(miz, firstposs).
+allomorph(müz, firstposs).
+allomorph(muz, firstposs).
+
+% ne-
+allomorph(yim, firstposs).
+allomorph(yimiz, firstposs).
+% su -
+allomorph(yum, firstposs).
+allomorph(yumuz, firstposs).
+
+%   2nd person possesive
+allomorph(ın, secondposs).
+allomorph(in, secondposs).
+allomorph(ün, secondposs).
+allomorph(un, secondposs).
+allomorph(n, secondposs).
+allomorph(ınız, secondposs).
+allomorph(iniz, secondposs).
+allomorph(unuz, secondposs).
+allomorph(ünüz, secondposs).
+allomorph(nız, secondposs).
+allomorph(niz, secondposs).
+allomorph(nüz, secondposs).
+allomorph(nuz, secondposs).
+
+% ne-
+allomorph(yin, secondposs).
+allomorph(yiniz, secondposs).
+% su-
+allomorph(yunuz, secondposs).
+allomorph(yun, secondposs).
+
+%  3rd person possesive
+allomorph(ı, thirdposs).
+allomorph(i, thirdposs).
+allomorph(ü, thirdposs).
+allomorph(u, thirdposs).
+allomorph(sı, thirdposs).
+allomorph(si, thirdposs).
+allomorph(su, thirdposs).
+allomorph(sü, thirdposs).
+
+% ne-
+allomorph(yi, thirdposs).
+% su-
+allomorph(yu, thirdposs).
+
+% genitive
+allomorph(ın, gen).
+allomorph(in, gen).
+allomorph(ün, gen).
+allomorph(un, gen).
+% ne-
+allomorph(yin, gen). 
+% su-
+allomorph(yun, gen). 
+allomorph(nın, gen).
+allomorph(nin, gen).
+allomorph(nün, gen).
+allomorph(nun, gen).
+
+
+% plural
+allomorph(lar, plur).
+allomorph(ler, plur).
+
+% relative
+allomorph(ki, rel).
+
+%% verb suffixes
+allomorph(mek, infinitive).
+allomorph(mak, infinitive).
+
+allomorph(ma,negetion).
+allomorph(me,negetion).
+allomorph(mı,negetionClosed).
+allomorph(mi,negetionClosed).
+allomorph(mu,negetionClosed).
+allomorph(mü,negetionClosed).
+
+allomorph(dı,definitePast).
+allomorph(di,definitePast).
+allomorph(tı,definitePast).
+allomorph(ti,definitePast).
+allomorph(du,definitePast).
+allomorph(dü,definitePast).
+allomorph(tu,definitePast).
+allomorph(tü,definitePast).
+
+allomorph(mış,indefinitePast).
+allomorph(miş,indefinitePast).
+allomorph(muş,indefinitePast).
+allomorph(müş,indefinitePast).
+
+allomorph(yor,progressive).
+allomorph(ıyor,progressive).
+allomorph(iyor,progressive).
+allomorph(uyor,progressive).
+allomorph(üyor,progressive).
+allomorph(makta,progressive).
+allomorph(mekte,progressive).
+allomorph(mada,progressive).
+allomorph(mede,progressive).
+
+
+allomorph(ecek,future).
+allomorph(acak,future).
+allomorph(yecek,future).
+allomorph(yacak,future).
+allomorph(eceğ, softfuture).
+allomorph(acağ, softfuture).
+allomorph(yeceğ, softfuture).
+allomorph(yacağ, softfuture).
+
+allomorph(r,aorist).
+allomorph(ar,aorist).
+allomorph(er,aorist).
+allomorph(ır,aorist).
+allomorph(ir,aorist).
+allomorph(ur,aorist).
+allomorph(ür,aorist).
+
+allomorph(z, negetionAorist).
+allomorph(m, negetionAoristEnding).
+allomorph(yız, negetionAoristEnding).
+allomorph(yiz, negetionAoristEnding).
+
+allomorph(meli,necessitative).
+allomorph(malı,necessitative).
+
+allomorph(se,conditional).
+allomorph(sa,conditional).
+
+allomorph(e,optative).
+allomorph(ye,optative).
+allomorph(a,optative).
+allomorph(ya,optative).
+
+allomorph(se,aConditional).
+allomorph(sa,aConditional).
+allomorph(yse,aConditional).
+allomorph(ysa,aConditional).
+
+allomorph(dı,aDefinitePast).
+allomorph(di,aDefinitePast).
+allomorph(du,aDefinitePast).
+allomorph(dü,aDefinitePast).
+allomorph(ydı,aDefinitePast).
+allomorph(ydi,aDefinitePast).
+allomorph(ydu,aDefinitePast).
+allomorph(ydü,aDefinitePast).
+allomorph(tı,aDefinitePast).
+allomorph(ti,aDefinitePast).
+allomorph(tu,aDefinitePast).
+allomorph(tü,aDefinitePast).
+
+allomorph(mış,aIndefinitePast).
+allomorph(miş,aIndefinitePast).
+allomorph(muş,aIndefinitePast).
+allomorph(müş,aIndefinitePast).
+allomorph(ymış,aIndefinitePast).
+allomorph(ymiş,aIndefinitePast).
+allomorph(ymuş,aIndefinitePast).
+allomorph(ymüş,aIndefinitePast).
+
+allomorph(ın, secondPluralImperative).
+allomorph(in, secondPluralImperative).
+allomorph(un, secondPluralImperative).
+allomorph(ün, secondPluralImperative).
+allomorph(yın, secondPluralImperative).
+allomorph(yin, secondPluralImperative).
+allomorph(yun, secondPluralImperative).
+allomorph(yün, secondPluralImperative).
+allomorph(ınız, secondPluralImperative).
+allomorph(iniz, secondPluralImperative).
+allomorph(unuz, secondPluralImperative).
+allomorph(ünüz, secondPluralImperative).
+allomorph(yınız, secondPluralImperative).
+allomorph(yiniz, secondPluralImperative).
+allomorph(yunuz, secondPluralImperative).
+allomorph(yünüz, secondPluralImperative).
+allomorph(sın, thirdSingularImperative).
+allomorph(sin, thirdSingularImperative).
+allomorph(sun, thirdSingularImperative).
+allomorph(sün, thirdSingularImperative).
+allomorph(sınlar, thirdPluralImperative).
+allomorph(sinler, thirdPluralImperative).
+allomorph(sunlar, thirdPluralImperative).
+allomorph(sünler, thirdPluralImperative).
+
+
+allomorph(ım,firstSingularEnding).
+allomorph(im,firstSingularEnding).
+allomorph(um,firstSingularEnding).
+allomorph(üm,firstSingularEnding).
+allomorph(yım,firstSingularEnding).
+allomorph(yim,firstSingularEnding).
+allomorph(yum,firstSingularEnding).
+allomorph(yüm,firstSingularEnding).
+allomorph(sın,secondSingularEnding).
+allomorph(sin,secondSingularEnding).
+allomorph(sun,secondSingularEnding).
+allomorph(sün,secondSingularEnding).
+allomorph(ız,firstPluralEnding).
+allomorph(iz,firstPluralEnding).
+allomorph(uz,firstPluralEnding).
+allomorph(üz,firstPluralEnding).
+allomorph(yız,firstPluralEnding).
+allomorph(yiz,firstPluralEnding).
+allomorph(yuz,firstPluralEnding).
+allomorph(yüz,firstPluralEnding).
+allomorph(lım,firstOptPluralEnding).
+allomorph(lim,firstOptPluralEnding).
+allomorph(sınız,secondPluralEnding).
+allomorph(siniz,secondPluralEnding).
+allomorph(sunuz,secondPluralEnding).
+allomorph(sünüz,secondPluralEnding).
+allomorph(ler,thirdPluralEnding).
+allomorph(lar,thirdPluralEnding).
+
+allomorph(m,firstSingularDefEnding).
+allomorph(n,secondSingularDefEnding).
+allomorph(k,firstPluralDefEnding).
+allomorph(nız,secondPluralDefEnding).
+allomorph(niz,secondPluralDefEnding).
+allomorph(nuz,secondPluralDefEnding).
+allomorph(nüz,secondPluralDefEnding).
+allomorph(ler,thirdPluralDefEnding).
+allomorph(lar,thirdPluralDefEnding).
+
+
+%%-dir
+allomorph(dir, infinitiveAorist).
+allomorph(dır, infinitiveAorist).
+allomorph(dur, infinitiveAorist).
+allomorph(dür, infinitiveAorist).
+allomorph(tir, infinitiveAorist).
+allomorph(tır, infinitiveAorist).
+allomorph(tur, infinitiveAorist).
+allomorph(tür, infinitiveAorist).
+
+%%% FSA (GRAMMAR)
+
+initial(q0).
+final(q1).
+final(q2).
+final(q3).
+final(q4a).
+final(q4b).
+final(qv1).
+final(qv2).
+final(qv3a).
+final(qv3b).
+final(qv3c).
+final(qv3d).
+final(qv4a).
+final(qv4b).
+final(qv5).
+
+% yumuşamış veya bozuk (-eceğ, kitab-, yapmı-)  kelimeler questiongenerator için final bırakıldı
+final(q1s).
+final(qv3bb).
+final(qv2b).
+
+% sıfat edat-bağlaç zarf
+final(qadj).
+final(qadv).
+final(qconj).
+
+% mastar final
+final(qvinf).
+
+% -idir final
+final(qv5b).
+
+%% sıfat zarf edat bağlaç vb.
+t(q0, adjective_char, qadj).
+t(q0, adjective_mark, qadj).
+t(q0, adjective_number_placement, qadj).
+t(q0, adjective_number, qadj).
+t(q0, adjective_number_ct, qadj).
+t(q0, adverb, qadv).
+t(q0, adverb_time, qadv).
+t(q0, conj, qconj).
+
+
+%% noun rules
+t(q0,noun,q1).
+t(q0,softnoun,q1s).
+
+t(q1s, acc, q4a).
+t(q1s, dat, q4a).
+t(q1s, gen, q4b).
+
+t(q1s, firstposs, q3).
+t(q1s, secondposs, q3).
+t(q1s, thirdposs, q3).
+
+t(q1, acc, q4a).
+t(q1, inst, q4a).
+t(q1, dat, q4a).
+t(q1, abl, q4a).
+t(q1, loc, q4b).
+t(q1, gen, q4b).
+
+t(q1, plur, q2).
+
+t(q2, acc, q4a).
+t(q2, inst, q4a).
+t(q2, dat, q4a).
+t(q2, abl, q4a).
+t(q2, loc, q4b).
+t(q2, gen, q4b).
+
+t(q1, firstposs, q3).
+t(q1, secondposs, q3).
+t(q1, thirdposs, q3).
+
+t(q2, firstposs, q3).
+t(q2, secondposs, q3).
+t(q2, thirdposs, q3).
+
+t(q3, acc, q4a).
+t(q3, inst, q4a).
+t(q3, dat, q4a).
+t(q3, abl, q4a).
+t(q3, loc, q4b).
+t(q3, gen, q4b).
+
+t(q4b,rel,q1).
+
+%% noun rules -> verb rules
+
+t(q1, aDefinitePast, qv3a).
+t(q1, aIndefinitePast, qv3b).
+t(q1, aConditional, qv3c).
+t(q1, infinitiveAorist, qv5b). %% -dir
+t(q1, firstSingularEnding, qv5).
+t(q1, firstPluralEnding, qv5).
+t(q1, secondSingularEnding, qv5).
+t(q1, secondPluralEnding, qv5).
+t(q1, thirdPluralEnding, qv5).
+
+t(q3, aDefinitePast, qv3a).
+t(q3, aIndefinitePast, qv3b).
+t(q3, aConditional, qv3c).
+t(q3, infinitiveAorist, qv5b). %% -dir
+t(q3, firstSingularEnding, qv5).
+t(q3, firstPluralEnding, qv5).
+t(q3, secondSingularEnding, qv5).
+t(q3, secondPluralEnding, qv5).
+
+%t(q4a, aDefinitePast, qv3a).
+%t(q4a, aIndefinitePast, qv3b).
+%t(q4a, aConditional, qv3c).
+%t(q4a, infinitiveAorist, qv5b). %% -dir
+%t(q4a, firstSingularEnding, qv5).
+%t(q4a, firstPluralEnding, qv5).
+%t(q4a, secondSingularEnding, qv5).
+%t(q4a, secondPluralEnding, qv5).
+%t(q4a, thirdPluralEnding, qv5).
+
+t(q4b, aDefinitePast, qv3a).
+t(q4b, aIndefinitePast, qv3b).
+t(q4b, aConditional, qv3c).
+t(q4b, infinitiveAorist, qv5b). %% -dir
+t(q4b, firstSingularEnding, qv5).
+t(q4b, firstPluralEnding, qv5).
+t(q4b, secondSingularEnding, qv5).
+t(q4b, secondPluralEnding, qv5).
+t(q4b, thirdPluralEnding, qv5).
+
+%% verb rules
+
+t(q0,verb,qv1).
+t(q0,verbVowelClosed,qv1s).
+
+t(qv1,infinitive,qvinf).
+
+t(qv1s, progressive, qv3b).
+t(qv1s, optative, qv3d).
+
+t(qv1,secondPluralImperative,qv5).
+t(qv1,thirdSingularImperative,qv5).
+t(qv1,thirdPluralImperative,qv5).
+
+t(qv1,definitePast,qv3a).
+t(qv1,indefinitePast,qv3b).
+t(qv1,progressive,qv3b).
+t(qv1,aorist,qv3b).
+t(qv1,future,qv3b).
+t(qv1,necessitative,qv3b).
+t(qv1,conditional,qv3c).
+t(qv1,optative,qv3d).
+t(qv1,negetion,qv2).
+t(qv1,negetionClosed,qv2b).
+
+t(qv1,softfuture,qv3bb).
+
+t(qv2b,progressive,qv3b).
+
+t(qv2,definitePast,qv3a).
+t(qv2,indefinitePast,qv3b).
+t(qv2,future,qv3b).
+t(qv2,necessitative,qv3b).
+t(qv2,conditional,qv3c).
+t(qv2,optative,qv3d).
+t(qv2, infinitive, qvinf).
+
+t(qv2,secondPluralImperative,qv5).
+t(qv2,thirdSingularImperative,qv5).
+t(qv2,thirdPluralImperative,qv5).
+t(qv2, negetionAorist, qv3b).
+t(qv2, negetionAoristEnding, qv5).
+
+t(qv2,softfuture,qv3bb).
+
+t(qv3a,aConditional,qv4a).
+t(qv3a,aDefinitePast,qv4a).
+t(qv3a,firstSingularDefEnding,qv5).
+t(qv3a,secondSingularDefEnding,qv5).
+t(qv3a,firstPluralDefEnding,qv5).
+t(qv3a,secondPluralDefEnding,qv5).
+t(qv3a,thirdPluralDefEnding,qv5).
+
+t(qv3b, firstSingularEnding, qv5).
+t(qv3b, firstPluralEnding, qv5).
+t(qv3b, secondSingularEnding, qv5).
+t(qv3b, secondPluralEnding, qv5).
+t(qv3b, thirdPluralEnding, qv5).
+t(qv3b, aDefinitePast,qv4a).
+t(qv3b, aIndefinitePast,qv4b).
+t(qv3b, aConditional,qv4a).
+t(qv3b, infinitiveAorist, qv5b).    %%-idir
+
+t(qv3bb, firstSingularEnding, qv5).
+t(qv3bb, firstPluralEnding, qv5).
+
+t(qv3c,aDefinitePast,qv4a).
+t(qv3c,aIndefinitePast,qv4b).
+t(qv3c,firstSingularDefEnding,qv5).
+t(qv3c,secondSingularDefEnding,qv5).
+t(qv3c,firstPluralDefEnding,qv5).
+t(qv3c,secondPluralDefEnding,qv5).
+t(qv3c,thirdPluralDefEnding,qv5).
+
+t(qv3d, aDefinitePast,qv4a).
+t(qv3d, aIndefinitePast,qv4b).
+t(qv3d, firstSingularEnding, qv5).
+t(qv3d, firstOptPluralEnding, qv5).
+t(qv3d, secondSingularEnding, qv5).
+t(qv3d, secondPluralEnding, qv5).
+t(qv3d, negetion, qv2). % loop example:al-a-ma-ya
+
+t(qv4a,firstSingularDefEnding,qv5).
+t(qv4a,secondSingularDefEnding,qv5).
+t(qv4a,firstPluralDefEnding,qv5).
+t(qv4a,secondPluralDefEnding,qv5).
+t(qv4a,thirdPluralDefEnding,qv5).
+
+t(qv4b, firstSingularEnding, qv5).
+t(qv4b, firstPluralEnding, qv5).
+t(qv4b, secondSingularEnding, qv5).
+t(qv4b, secondPluralEnding, qv5).
+t(qv4b, thirdPluralEnding, qv5).
+
+
+
+% letters
+vowel(a).
+vowel(e).
+vowel(ı).
+vowel(i).
+vowel(u).
+vowel(ü).
+vowel(o).
+vowel(ö).
+
+consonant_type1(ç).
+consonant_type1(f).
+consonant_type1(h).
+consonant_type1(k).
+consonant_type1(p).
+consonant_type1(s).
+consonant_type1(ş).
+consonant_type1(t).
+
+consonant_type2(s).
+consonant_type2(l).
+consonant_type2(m).
+consonant_type2(n).
+consonant_type2(r).
+consonant_type2(y).
+
+consonant_type3(b).
+consonant_type3(c).
+consonant_type3(d).
+consonant_type3(g).
+consonant_type3(ğ).
+consonant_type3(j).
+consonant_type3(v).
+consonant_type3(z).
+
+consonant(X) :- not(vowel(X)).
+
+unsoft(softnoun, noun).
+unsoft(verbVowelClosed, verb).
+unsoft(verb, verb).
+unsoft(noun, noun).
+unsoft(adjective_char, adjective_char).
+unsoft(adjective_mark, adjective_mark).
+unsoft(adjective_number, adjective_number).
+unsoft(adjective_number_placement, adjective_number_placement).
+unsoft(adjective_number_ct, adjective_number_ct).
+unsoft(adverb, adverb).
+unsoft(adverb_time, adverb_time).
+unsoft(conj, conj).
+
+
+%%% PARSER
+
+
+parse(String, AccMorpheme, AccAllomorph):- initial(State),
+     parse(String, State, [X|Rest], _, _, AccAllomorph),
+     ifsoft(X, Rest, AccMorpheme).
+
+ifsoft(X, Rest, [W|Rest]):-
+     unsoft(X, W).
+
+
+parse('', State, [], _, _, []):- final(State).
+
+parse(String, CurrentState, [Morpheme|Morphemes], Prev_Allomorph, Prev_Morpheme, [Str1|Allomorphs]):-
+     concat(Str1, Str2, String),
+     allomorph(Str1, Morpheme),
+     t(CurrentState, Morpheme, NextState),
+     check_harmony(Prev_Allomorph, Str1, Prev_Morpheme, Morpheme, String),
+     parse(Str2, NextState, Morphemes, Str1, Morpheme, Allomorphs).
+
+check_harmony('', _, '', _, _) :- !.
+
+check_harmony(Prev_Allomorph, Cur_Allomorph, Prev_Morpheme, Cur_Morpheme, Rest_String):-
+
+     (allomorph(ki, Cur_Morpheme) -> true; %% if next morpheme is relative which is 'ki' then we dont check harmonies.
+     string_to_list(Prev_Allomorph, LCodeList), %% stringler sağ sol diye ayrılır sağ taraf ek - sol taraf ekin geldiği kelime
+     string_to_list(Cur_Allomorph, RCodeList),
+     string_to_list(Rest_String, RstrCodeList), %% Rest string sağ taraftaki eklerin tamamı
+     reverse(LCodeList, RevLCodeList), %% sol taraf listesi ters çevrilir
+     not(check_vowel_vowel(RevLCodeList, RCodeList)), %% ek ünlü ile başlıyorsa iki ünlü yanyana gelemez.
+     check_vowel_harmony(RevLCodeList, RCodeList, RstrCodeList, Prev_Morpheme, Cur_Morpheme, Prev_Allomorph, Rest_String),
+     check_vowel_consonant_harmony(RevLCodeList, RCodeList, Prev_Morpheme, Cur_Morpheme, Prev_Allomorph),
+     check_consonant_vowel_harmony(RevLCodeList, RCodeList, Cur_Morpheme, Prev_Morpheme),
+     check_consonant_consonant_harmony(RevLCodeList, RCodeList, Prev_Morpheme, Cur_Morpheme)).
+
+
+check_vowel_vowel([LeftCharCode|_], [RightCharCode|_]):-
+     char_code(LeftChar, LeftCharCode),
+     char_code(RightChar, RightCharCode),
+     (vowel(LeftChar), vowel(RightChar)).
+
+check_vowel_harmony(RevLCodeList, _, RstrCodeList, Prev_Morpheme, _, Prev_Allomorph, Rest_String):-
+     length(RstrCodeList, Rsize),
+     length(RevLCodeList, Lsize),
+     (
+     (Prev_Morpheme == verbVowelClosed, !);  %% verbVowelClosed is last char changed verbs which ağla -> ağlı -> ağlıyor. We dont check vowel harmony because these allomorphs can only take progressive suffix on automata.
+     (Prev_Morpheme == negetionClosed, !);  %% negetionClosed is same as verbVowelClosed
+     (Rsize == 1, consonant(Rest_String), !); %% eğer sağ taraf tekse ve ünlü değilse
+     (Lsize == 1, consonant(Prev_Allomorph))  %% eğer sol taraf tekse ve ünlü değilse
+     ).
+
+check_vowel_harmony(RevLCodeList, _, RstrCodeList, _, _, _, _):-
+     findFirst_vowelCode(RstrCodeList, RightVowelCode), %% string içinde ilk ünlüyü bul
+     findFirst_vowelCode(RevLCodeList, LeftVowelCode),  %% string içinde ilk ünlüyü bul
+     char_code(Lvowel, LeftVowelCode),
+     char_code(Rvowel, RightVowelCode),
+     vowel(Rvowel),
+     vowel(Lvowel),
+     ( %% ünlü harmonisi eşleşmeleri
+     (((Lvowel = a; Lvowel = ı), (Rvowel = a; Rvowel = ı)),!); %% sol taraf a veya ı ile biterse, sağ taraf a veya ı ile başlayabilir
+     (((Lvowel = o; Lvowel = u), (Rvowel = a; Rvowel = u)),!); %% sol taraf o veya u ile biterse, sağ taraf a veya u ile başlayabilir
+     (((Lvowel = e; Lvowel = i), (Rvowel = e; Rvowel = i)),!); %% sol taraf e veya i ile biterse, sağ taraf e veya i ile başlayabilir
+     (((Lvowel = ö; Lvowel = ü), (Rvowel = e; Rvowel = ü)),!)  %% sol taraf ö veya ü ile biterse, sağ taraf e veya ü ile başlayabilir
+     ).
+
+
+check_vowel_consonant_harmony([LeftCharCode|_], [RightCharCode|_], _, _, _):-
+     char_code(LeftChar, LeftCharCode),
+     char_code(RightChar, RightCharCode),
+     (
+     (consonant(LeftChar),!);
+     (vowel(RightChar),!)
+     ).
+
+check_vowel_consonant_harmony([LeftCharCode|_], [RightCharCode|_], Prev_Morpheme, Cur_Morpheme, Prev_Allomorph):-
+     char_code(_, LeftCharCode),
+     char_code(RightChar, RightCharCode),
+     not(RightChar = t), %% ünlüden sonra t gelemez
+     
+     (  % eğer ek possesive veya genitive ve sol kelime 'su veya ne' ise ek y ile başlar
+     ((Cur_Morpheme==firstposs,!);(Cur_Morpheme==secondposs,!);(Cur_Morpheme==thirdposs,!);(Cur_Morpheme==gen,!)),((Prev_Allomorph == ne, Prev_Morpheme==noun, !);(Prev_Allomorph == su, Prev_Morpheme==noun,!)) ->
+      (RightChar == y); true
+     ),
+     
+     ( % eğer thirdposs + loc;acc;dat;abl n ile başlar
+     ((Cur_Morpheme == loc,!);(Cur_Morpheme == acc,!);(Cur_Morpheme == dat,!);(Cur_Morpheme == abl,!)), (Prev_Morpheme == thirdposs) ->
+     (RightChar == n); true
+     ),
+     
+     % y kaynaştırma alır
+     (Cur_Morpheme = inst -> not(RightChar = l); true),
+     (Cur_Morpheme = aDefinitePast -> not(RightChar = d); true),
+     (Cur_Morpheme = aIndefinitePast -> not(RightChar = m); true),
+     (Cur_Morpheme = aConditional -> not(RightChar = s); true).
+
+
+check_consonant_vowel_harmony([LeftCharCode|_], [RightCharCode|_], _, _):-
+     char_code(LeftChar, LeftCharCode),
+     char_code(RightChar, RightCharCode),
+     (
+     (vowel(LeftChar),!);
+     (consonant(RightChar),!)
+     ).
+
+check_consonant_vowel_harmony([LeftCharCode|LeftCharCodeRest], [RightCharCode|_], _, Prev_Morpheme):-
+     char_code(LeftChar, LeftCharCode),
+     char_code(_, RightCharCode),
+     length(LeftCharCodeRest, Lsize),
+     ((Lsize < 3, !); (Prev_Morpheme == verb) -> true;
+     not(LeftChar = p),
+     not(LeftChar = ç),
+     not(LeftChar = t),
+     not(LeftChar = k)).
+
+check_consonant_consonant_harmony([LeftCharCode|_], [RightCharCode|_], _, _):-
+     char_code(LeftChar, LeftCharCode),
+     char_code(RightChar, RightCharCode),
+     (
+     (vowel(LeftChar),!);
+     (vowel(RightChar),!)
+     ).
+
+check_consonant_consonant_harmony([LeftCharCode|_], [RightCharCode|_], Prev_Morpheme, Cur_Morpheme):-
+     not(Prev_Morpheme = softnoun),
+     char_code(LeftChar, LeftCharCode),
+     char_code(RightChar, RightCharCode),
+     not(RightChar = y),   % ünsüzden sonra y gelmez
+     (((Cur_Morpheme = firstposs,!);(Cur_Morpheme = secondposs,!);(Cur_Morpheme = thirdposs,!)) -> (not(RightChar = m), not(RightChar = n), not(RightChar = s)); true),
+     (Cur_Morpheme = loc -> (not(RightChar = n)); true),
+     (Cur_Morpheme = acc -> (not(RightChar = n)); true),
+     (Cur_Morpheme = dat -> (not(RightChar = n)); true),
+     (Cur_Morpheme = abl -> (not(RightChar = n)); true),
+     (Cur_Morpheme = aorist -> (not(RightChar = r)); true),
+     (
+     ((consonant_type1(LeftChar), consonant_type1(RightChar)),!);
+     ((consonant_type1(LeftChar), consonant_type2(RightChar)),!);
+     ((consonant_type2(LeftChar), consonant_type3(RightChar)),!);
+     ((consonant_type2(LeftChar), consonant_type2(RightChar)),!);
+     ((consonant_type3(LeftChar), consonant_type2(RightChar)),!);
+     ((consonant_type3(LeftChar), consonant_type3(RightChar)),!)
+     ).
+
+
+findFirst_vowelCode([], 98).
+
+findFirst_vowelCode([Code|Rest], VowelCode):-
+     char_code(Char, Code),
+     (vowel(Char) -> VowelCode is Code; findFirst_vowelCode(Rest, VowelCode)).
+
+
+
+

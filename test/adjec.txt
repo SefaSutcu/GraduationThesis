@@ -1,0 +1,80 @@
+*işaret sıfatları
+bu
+o
+öteki
+böyle
+diğer
+öbür
+şu
+beriki
+-ki
+-deki
+
+*belgisiz sıfat
+Çok
+Çoğu
+Fazla
+Hiçbir
+Her
+Hiç
+Kimi
+Tüm
+Kaç
+Başka
+Bazı
+Nice
+Az
+Bir
+Belli başlı
+Birçok
+Biraz
+Bir hayli
+Birkaç
+Bütün
+Birtakım
+Bir sürü
+falan
+falanca
+filan
+
+*soru sıfatları
+hangi
+kaç
+ne
+nasıl
+kaçıncı
+kaçar
+
+*sayı sıfatları
+birinci
+ikinci
+üçüncü
+dördüncü
+beşinci
+altıncı
+yedinci
+sekizinci
+dokuzuncu
+onuncu
+birer
+ikişer
+üçer
+dörder
+beşer
+altışar
+yedişer
+sekizer
+dokuzar
+onar
+yarım
+çeyrek
+tam
+ikiz
+üçüz
+dördüz
+beşiz
+altız
+yediz
+
+
+

@@ -1,0 +1,662 @@
+almalı; ['verb', 'necessitative'] 
+alma; ['verb', 'negetion']
+alınız; ['verb', 'secondPluralImperative']
+al; ['verb']
+aldınız; ['verb', 'definitePast', 'secondPluralDefEnding']
+alasınız; ['verb', 'optative', 'secondPluralEnding']
+alamaz; false???
+almaz; false???
+almalısınız; ['verb', 'necessitative', 'secondPluralEnding'] 
+aldın; ['verb', 'definitePast', 'secondSingularDefEnding']
+alsın; ['verb', 'thirdSingularImperative']
+almazsınız; false???
+alamamalı; ['verb', 'negetion', 'necessitative'] 
+katla; ['verb']
+katlasın; ['verb', 'thirdSingularImperative']
+katlayalım; ['verb', 'optative', 'firstOptPluralEnding']
+katlayın; ['verb', 'secondPluralImperative']
+katladım; ['verb', 'definitePast', 'firstSingularDefEnding']
+katlarım; ['verb', 'aorist', 'firstSingularEnding']
+katlamam; ['noun', 'firstposs']
+katlayamam; false???
+katlardık; ['verb', 'aorist', 'aDefinitePast', 'firstPluralDefEnding']
+katlayacaktı; ['verb', 'future', 'aDefinitePast']
+katlıyorsun; ['verb', 'progressive', 'secondSingularEnding']
+katladık; ['verb', 'definitePast', 'firstPluralDefEnding']
+katlayabilir; ['verb', 'aorist']
+katlamalılar; ['verb', 'necessitative', 'thirdPluralEnding']
+katlar; ['verb', 'aorist']
+katlarız; ['verb', 'aorist', 'firstPluralEnding']
+yapacağım; ['verb', 'softfuture', 'firstSingularEnding']
+yap; ['verb']
+yapınız; ['verb', 'secondPluralImperative']
+yapma; ['verb', 'negetion']
+yapıyorum; ['verb', 'progressive', 'firstSingularEnding']
+yaptım; ['verb', 'definitePast', 'firstSingularDefEnding']
+yaparım; ['verb', 'aorist', 'firstSingularEnding']
+yapmam; ['noun', 'firstposs']
+yapabilirim; ['verb', 'aorist', 'firstSingularEnding']
+yapamam; false???
+yapmalıyım; ['verb', 'necessitative', 'firstSingularEnding']
+yapardım; ['verb', 'aorist', 'aDefinitePast', 'firstSingularDefEnding']
+yapıyordum; ['verb', 'progressive', 'aDefinitePast', 'firstSingularDefEnding']
+yapmışım; ['verb', 'indefinitePast', 'firstSingularEnding']
+yapmıştım; ['verb', 'indefinitePast', 'aDefinitePast', 'firstSingularDefEnding']
+yapacaktım; ['verb', 'future', 'aDefinitePast', 'firstSingularDefEnding']
+yaptırdım; ['verb', 'definitePast', 'firstSingularDefEnding']
+yapayım; ['verb', 'optative', 'firstSingularEnding']
+yapalım; ['verb', 'optative', 'firstOptPluralEnding']
+yapsın; ['verb', 'thirdSingularImperative']
+yaparsam; ['verb', 'aorist', 'aConditional', 'firstSingularDefEnding']
+yapsaydım; ['verb', 'conditional', 'aDefinitePast', 'firstSingularDefEnding']
+yaptığım; ['verb', 'definitePast', 'firstSingularEnding']
+yapacağım; ['verb', 'softfuture', 'firstSingularEnding']
+yapacak; ['verb', 'future']
+yapmış; ['verb', 'indefinitePast']
+yapmadan; false???
+bük; ['verb']
+bükmez; false???
+bükemez; false???
+bükmeli; ['verb', 'necessitative']
+bükememeli; false???
+büktün; ['verb', 'definitePast', 'secondSingularDefEnding']
+büksünler; ['verb', 'thirdPluralImperative'] 
+gidelim; ['verb', 'optative', 'firstOptPluralEnding']
+gideceğim; ['verb', 'softfuture', 'firstSingularEnding']
+gitmeliyim; ['verb', 'necessitative', 'firstSingularEnding']
+gidebilirim; ['verb', 'aorist', 'firstSingularEnding']
+gider; ['verb']
+git; ['verb']
+gidin; ['verb', 'secondPluralImperative']
+gitsin; ['verb', 'thirdSingularImperative']
+gitmeli; ['verb', 'necessitative']
+gitmelisin; ['verb', 'necessitative', 'secondSingularEnding']
+gidersem; ['verb', 'conditional', 'firstSingularDefEnding']
+giderseniz; ['verb', 'conditional', 'secondPluralDefEnding']
+gitmekte; ['verb', 'progressive']
+patlamışız; ['verb', 'indefinitePast', 'firstPluralEnding']
+patlasın; ['verb', 'thirdSingularImperative']
+patlamalı; ['verb', 'necessitative']
+patla; ['verb']
+patlasın; ['verb', 'thirdSingularImperative']
+patlasınlar;  ['verb', 'thirdPluralImperative']
+patlamalılar; ['verb', 'necessitative', 'thirdPluralEnding']
+patlamam; false???
+patlayamasın; false???
+patlayınız; ['verb', 'secondPluralImperative']
+patlıyordun; ['verb', 'progressive', 'aDefinitePast', 'secondSingularDefEnding']
+patlayacaktım; ['verb', 'future', 'aDefinitePast', 'firstSingularDefEnding'] 
+patlamasın; false???
+patlayayım; ['verb', 'optative', 'firstSingularEnding']
+patlasaydın; ['verb', 'conditional', 'aDefinitePast', 'secondSingularDefEnding']
+patlayacağım;  ['verb', 'softfuture', 'firstSingularEnding'] 
+içtim; ['verb', 'definitePast', 'firstSingularDefEnding']
+iç; ['verb']
+içsin; ['verb', 'thirdSingularImperative']
+içtiler; ['verb', 'definitePast', 'thirdPluralDefEnding']
+içerim; ['verb', 'aorist', 'firstSingularEnding']
+içermişim; ['verb', 'aorist', 'aIndefinitePast', 'firstSingularEnding']
+içerdiler; ['verb', 'aorist', 'aDefinitePast', 'thirdPluralDefEnding']
+içmişler; ['verb', 'indefinitePast', 'thirdPluralEnding']
+içmeden; false???
+içtiğim; ['verb', 'definitePast', 'firstSingularEnding']
+içemedim; false???
+içemez; false???
+içeceğiz;  ['verb', 'softfuture', 'firstPluralEnding']
+içersiniz; ['verb', 'aorist', 'secondPluralEnding']
+içtik; ['verb', 'definitePast', 'firstPluralDefEnding']
+içmem; false???
+gide;  ['verb', 'optative']
+gittik; ['verb', 'definitePast', 'firstPluralDefEnding']
+Astım; ['verb', 'definitePast', 'firstSingularDefEnding']
+Asacaklar; ['verb', 'future', 'thirdPluralEnding']
+Asmışız; ['verb', 'indefinitePast', 'firstPluralEnding']
+Asmışmış; ['verb', 'indefinitePast', 'aIndefinitePast']
+Asıyorum; ['verb', 'progressive', 'firstSingularEnding']
+Asacaktı; ['verb', 'future', 'aDefinitePast']
+Asmayacak; ['verb', 'negetion', 'future']
+Etme; ['verb', 'negetion']
+Edecek; ['verb', 'future']
+Etti; ['verb', 'definitePast']
+Etmiş; ['verb', 'indefinitePast']
+Ediyor; ['verb', 'progressive']
+Edeceğim; ['verb', 'future', 'firstSingularEnding']
+Edecekler; ['verb', 'future', 'thirdPluralEnding']
+Edecekti; ['verb', 'future', 'aDefinitePast']
+Edecekmiş; ['verb', 'future', 'aIndefinitePast']
+Edeceklermiş; ['verb', 'future', 'thirdPluralEnding', 'aIndefinitePast']
+Ettiler; ['verb', 'definitePast', 'thirdPluralDefEnding']
+Etmişler; ['verb', 'indefinitePast', 'thirdPluralEnding']
+Etmişiz; ['verb', 'indefinitePast', 'firstPluralEnding']
+Etmişti; ['verb', 'indefinitePast', 'aDefinitePast']
+Ettik; ['verb', 'definitePast', 'firstPluralDefEnding']
+Edecektik; ['verb', 'future', 'aDefinitePast', 'firstPluralDefEnding'] 
+Ediyorum; ['verb', 'progressive', 'firstSingularEnding']
+Ediyormuşuz; ['verb', 'progressive', 'aIndefinitePast', 'firstPluralEnding']
+ekecek; ['verb', 'future']
+ekecekti; ['verb', 'future', 'aDefinitePast']
+ekecekmiş; ['verb', 'future', 'aIndefinitePast']
+ekecekler; ['verb', 'future', 'thirdPluralEnding']
+ekecektim; ['verb', 'future', 'aDefinitePast', 'firstSingularDefEnding']
+ekti; ['verb', 'definitePast']
+ektim; ['verb', 'definitePast', 'firstSingularDefEnding']
+ektiler; ['verb', 'definitePast', 'thirdPluralDefEnding']
+ekiyor; ['verb', 'progressive']
+ekemedim; false???
+ekiyordu; ['verb', 'progressive', 'aDefinitePast']
+ekiyormuş; ['verb', 'progressive', 'aIndefinitePast']
+ekiyordum; ['verb', 'progressive', 'aDefinitePast', 'firstSingularDefEnding']
+ekmiş; ['verb', 'indefinitePast']
+ekmişler; ['verb', 'indefinitePast', 'thirdPluralEnding']
+ekmiştim; ['verb', 'indefinitePast', 'aDefinitePast', 'firstSingularDefEnding']
+Elle; ['verb']
+Elledim; ['verb', 'definitePast', 'firstSingularDefEnding']
+Elleyecekmiş; ['verb', 'future', 'aIndefinitePast']
+Ellermiş; ['verb', 'aorist', 'aIndefinitePast']
+Ellemiş; ['verb', 'indefinitePast']
+Ellemişler; ['verb', 'indefinitePast', 'thirdPluralEnding']
+Ellemiştim; ['verb', 'indefinitePast', 'aDefinitePast', 'firstSingularDefEnding']
+Es; ['verb']
+Esiyor; ['verb', 'progressive']
+Esti; ['verb', 'definitePast']
+Esmiş; ['verb', 'indefinitePast']
+Esmişti; ['verb', 'indefinitePast', 'aDefinitePast']
+Emdi; ['verb', 'definitePast']
+Emdiler; ['verb', 'definitePast', 'thirdPluralDefEnding']
+Emmiş; ['verb', 'indefinitePast']
+Emdim; ['verb', 'definitePast', 'firstSingularDefEnding']
+Emmişler; ['verb', 'indefinitePast', 'thirdPluralEnding']
+Emmişti; ['verb', 'indefinitePast', 'aDefinitePast']
+Ez; ['verb']
+Ezdi; ['verb', 'definitePast']
+Ezdim; ['verb', 'definitePast', 'firstSingularDefEnding']
+Ezdiler; ['verb', 'definitePast', 'thirdPluralDefEnding']
+Ezeceklermiş; false???
+Eziyorum; ['verb', 'progressive', 'firstSingularEnding']
+Ezmiş; ['verb', 'indefinitePast']
+Ezmişim; ['verb', 'indefinitePast', 'firstSingularEnding']
+Ezmişler; ['verb', 'indefinitePast', 'thirdPluralEnding']
+Ezmişti; ['verb', 'indefinitePast', 'aDefinitePast']
+Ezmiştim; ['verb', 'indefinitePast', 'aDefinitePast', 'firstSingularDefEnding']
+iç; ['verb']
+içti; ['verb', 'definitePast']
+içtim; ['verb', 'definitePast', 'firstSingularDefEnding']
+içtiler; ['verb', 'definitePast', 'thirdPluralDefEnding']
+içeceklermiş; false???
+içiyorum; ['verb', 'progressive', 'firstSingularEnding']
+içmiş; ['verb', 'indefinitePast']
+içmişim; ['verb', 'indefinitePast', 'firstSingularEnding']
+içmişler; ['verb', 'indefinitePast', 'thirdPluralEnding']
+içmişti; ['verb', 'indefinitePast', 'aDefinitePast']
+içmiştim; ['verb', 'indefinitePast', 'aDefinitePast', 'firstSingularDefEnding']
+içmedi; ['verb', 'negetion', 'definitePast']
+Sev; ['verb']
+Sevdi; ['verb', 'definitePast']
+Sevdim; ['verb', 'definitePast', 'firstSingularDefEnding']
+Sevdiler; ['verb', 'definitePast', 'thirdPluralDefEnding']
+Seveceklermiş; false???
+Seviyorum; ['verb', 'progressive', 'firstSingularEnding']
+Sevmiş; ['verb', 'indefinitePast']
+Sevmişim; ['verb', 'indefinitePast', 'firstSingularEnding']
+Sevmişler; ['verb', 'indefinitePast', 'thirdPluralEnding']
+Sevmişti; ['verb', 'indefinitePast', 'aDefinitePast']
+Sevmiştim; ['verb', 'indefinitePast', 'aDefinitePast', 'firstSingularDefEnding']
+Sevmedi; ['verb', 'negetion', 'definitePast']
+temizle; ['verb']
+temizledi; ['verb', 'definitePast']
+temizledim; ['verb', 'definitePast', 'firstSingularDefEnding']
+temizlediler; ['verb', 'definitePast', 'thirdPluralDefEnding']
+temizleyeceklermiş; false???
+temizliyorum; ['verb', 'progressive', 'firstSingularEnding']
+temizlemiş; ['verb', 'indefinitePast']
+temizlemişim; ['verb', 'indefinitePast', 'firstSingularEnding']
+temizlemişler; ['verb', 'indefinitePast', 'thirdPluralEnding']
+temizlemişti; ['verb', 'indefinitePast', 'aDefinitePast']
+Temizlemiştim; ['verb', 'indefinitePast', 'aDefinitePast', 'firstSingularDefEnding']
+Fırla; ['verb']
+Fırladı; ['verb', 'definitePast']
+Fırladılar; ['verb', 'definitePast', 'thirdPluralDefEnding']
+Fırlamışlar; ['verb', 'indefinitePast', 'thirdPluralEnding']
+Fırlamıştı; ['verb', 'indefinitePast', 'aDefinitePast']
+Fırlat; ['verb']
+Fırlattı; ['verb', 'definitePast']
+Fırlattım; ['verb', 'definitePast', 'firstSingularDefEnding']
+Fırlatmış; ['verb', 'indefinitePast']
+Fırlatmıştı; ['verb', 'indefinitePast', 'aDefinitePast']
+Fırlatmıştım; ['verb', 'indefinitePast', 'aDefinitePast', 'firstSingularDefEnding']
+Fırlatmışlardı; false???
+Seyret; ['verb']
+Seyredecek; ['verb', 'future']
+Seyredeceğim; ['verb', 'softfuture', 'firstSingularEnding']
+Seyredecekti; ['verb', 'future', 'aDefinitePast']
+Seyredecekmiş; ['verb', 'future', 'aIndefinitePast']
+Seyredeceklerdi; false???
+Seyreder; ['verb', 'aorist']
+Seyredermiş; ['verb', 'aorist', 'aIndefinitePast']
+Seyrederdi; ['verb', 'aorist', 'aDefinitePast']
+Seyrederler; ['verb', 'aorist', 'thirdPluralEnding']
+Seyrederlerdi; false???
+Seyrederlermiş; false???
+Seyrederdim; ['verb', 'aorist', 'aDefinitePast', 'firstSingularDefEnding']
+Seyretti; ['verb', 'definitePast']
+Seyrettim; ['verb', 'definitePast', 'firstSingularDefEnding']
+Seyretmiştim; ['verb', 'indefinitePast', 'aDefinitePast', 'firstSingularDefEnding']
+Seyretmiş; ['verb', 'indefinitePast']
+Seyretmişti; ['verb', 'indefinitePast', 'aDefinitePast']
+Seyretmişlerdi; false???
+Sürmeyeceklermiş; false???
+Sürmüştük; ['verb', 'indefinitePast', 'aDefinitePast', 'firstPluralDefEnding']
+Sürdüm; ['verb', 'definitePast', 'firstSingularDefEnding']
+Sürermiş; ['verb', 'aorist', 'aIndefinitePast']
+Sürmeyecek; ['verb', 'negetion', 'future']
+Sürerdim; ['verb', 'aorist', 'aDefinitePast', 'firstSingularDefEnding']
+Kabarmış; ['verb', 'indefinitePast']
+Kabardı; ['verb', 'definitePast']
+Kabarsın; ['verb', 'thirdSingularImperative']
+Kabarır; ['verb', 'aorist']
+Kabardım; ['verb', 'definitePast', 'firstSingularDefEnding']
+Kabarttım; ['verb', 'definitePast', 'firstSingularDefEnding']
+Kabarttılar; ['verb', 'definitePast', 'thirdPluralDefEnding']
+Kabartacaklarmış; false???
+Olma; ['verb', 'negetion']
+Oldu; ['verb', 'definitePast']
+Olmuştu; ['verb', 'indefinitePast', 'aDefinitePast']
+Olmuş; ['verb', 'indefinitePast']
+Olmayacakmış; ['verb', 'negetion', 'future', 'aIndefinitePast']
+Olacaktı; ['verb', 'future', 'aDefinitePast']
+Olur; ['verb', 'aorist']
+Olsun; ['verb', 'thirdSingularImperative']
+Yazılmış; ['verb', 'indefinitePast']
+Yazıldım; ['verb', 'definitePast', 'firstSingularDefEnding']
+Yazmışız; ['verb', 'indefinitePast', 'firstPluralEnding']
+Yazmışlarmış; false???
+Yazmıştım; ['verb', 'indefinitePast', 'aDefinitePast', 'firstSingularDefEnding']
+Yazmayacaklar; ['verb', 'negetion', 'future', 'thirdPluralEnding']
+Yazsın; ['verb', 'thirdSingularImperative']
+Yazarmış; ['verb', 'aorist', 'aIndefinitePast']
+kalabilir; ['verb', 'aorist']
+kalabilirdi; ['verb', 'aorist', 'aDefinitePast']
+kalacaktı; ['verb', 'future', 'aDefinitePast']
+gelmeliydi; ['verb', 'necessitative', 'aDefinitePast']
+gelmiştik; ['verb', 'indefinitePast', 'aDefinitePast', 'firstPluralDefEnding']
+gitmişmiş; ['verb', 'indefinitePast', 'aIndefinitePast']
+gidermişmiş; ['verb', 'indefinitePast', 'aIndefinitePast']
+Gitmemeliydi; ['verb', 'negetion', 'necessitative', 'aDefinitePast']
+gitmeyecekti; ['verb', 'negetion', 'future', 'aDefinitePast']
+gidiyorsa; ['verb', 'aorist', 'aConditional']
+geleceklerse; false???
+isteseydi; ['verb', 'conditional', 'aDefinitePast']
+istemeliyiz; ['verb', 'necessitative', 'firstPluralEnding']
+istemeliydi; ['verb', 'necessitative', 'aDefinitePast']
+gelirdi; ['verb', 'aorist', 'aDefinitePast']
+gelme; ['verb', 'negetion']
+aramıştınız; ['verb', 'indefinitePast', 'aDefinitePast', 'secondPluralDefEnding']
+kaldırsalardı; false???
+kalkmalıymış; ['verb', 'necessitative', 'aIndefinitePast']
+aramayacaklar; ['verb', 'negetion', 'future', 'thirdPluralEnding']
+aramayacaklarmış; false???
+bakmışım; ['verb', 'indefinitePast', 'firstSingularEnding']
+baksak; ['verb', 'conditional', 'firstPluralDefEnding']
+bakasın; ['verb', 'optative', 'secondSingularEnding']
+biliyordu; ['verb', 'progressive', 'aDefinitePast']
+bilmeli; ['verb', 'necessitative']
+biliyorsa; ['verb', 'progressive', 'aConditional']
+bilmiştim; ['verb', 'indefinitePast', 'aDefinitePast', 'firstSingularDefEnding']
+atar; ['verb', 'aorist']
+atmış; ['verb', 'indefinitePast']
+attı; ['verb', 'definitePast']
+atıyordu; ['verb', 'progressive', 'aDefinitePast']
+asar; ['verb', 'aorist']
+astı; ['verb', 'definitePast']
+atabilir; ['verb', 'aorist']
+atabilirsen ; ['verb', 'aorist', 'aConditional', 'secondSingularDefEnding']
+atabilirseniz; ['verb', 'aorist', 'aConditional', 'secondPluralDefEnding']
+atmışsınız ; ['verb', 'indefinitePast', 'secondPluralEnding']
+atmışlar; ['verb', 'indefinitePast', 'thirdPluralEnding']
+Ağlayacak; ['verb', 'future']
+Ağlamıştı; ['verb', 'indefinitePast', 'aDefinitePast']
+Ağlayacakmışız; ['verb', 'future', 'aIndefinitePast', 'firstPluralEnding']
+anladın ; ['verb', 'definitePast', 'secondSingularDefEnding']
+anlamadılar ; ['verb', 'negetion', 'definitePast', 'thirdPluralDefEnding']
+anlamayacaksınız; ['verb', 'negetion', 'future', 'secondPluralEnding']
+söylemiştim; ['verb', 'indefinitePast', 'aDefinitePast', 'firstSingularDefEnding']
+bitebilir; ['verb', 'aorist']
+tanır; ['verb', 'aorist']
+ağlayabilirse; ['verb', 'aorist', 'aConditional']
+konuş; ['verb']
+konuşsun; ['verb', 'thirdSingularImperative']
+konuşma; ['verb', 'negetion']
+doldu; ['verb', 'definitePast']
+doldur; ['verb']
+doldurma; ['verb', 'negetion']
+doluyor; ['verb', 'progressive']
+dolmuş ; ['verb', 'indefinitePast']
+dolar; ['verb', 'aorist']
+gitmez; false???
+giriniz ; ['verb', 'secondPluralImperative']
+verse; ['verb', 'conditional']
+kurma; ['verb', 'negetion']
+verseniz; ['verb', 'conditional', 'secondPluralDefEnding']
+gelirseniz; ['verb', 'aorist', 'aConditional', 'secondPluralDefEnding']
+geldim; ['verb', 'definitePast', 'firstSingularDefEnding']
+gelirmişim; ['verb', 'aorist', 'aIndefinitePast', 'firstSingularEnding']
+gelirler; ['verb', 'aorist', 'thirdPluralEnding']
+üzüyor ; ['verb', 'progressive']
+üzme; ['verb', 'negetion']
+üzülme; ['verb', 'negetion']
+üzmeyelim; ['verb', 'negetion', 'optative', 'firstOptPluralEnding']
+girmeyelim; ['verb', 'negetion', 'optative', 'firstOptPluralEnding']
+açalım; ['verb', 'optative', 'firstOptPluralEnding']
+kapat; ['verb']
+kapatınız ; ['verb', 'secondPluralImperative']
+kapatsalar; ['verb', 'conditional', 'thirdPluralDefEnding']
+yaparmış; ['verb', 'aorist', 'aIndefinitePast']
+yapıyorlarmış; false???
+bakıyor; ['verb', 'progressive']
+bakıyordun; ['verb', 'progressive', 'aDefinitePast', 'secondSingularDefEnding']
+bakıyorsun; ['verb', 'progressive', 'secondSingularEnding']
+kokar; ['verb', 'aorist']
+kokmuş; ['verb', 'indefinitePast']
+kokmuştu; ['verb', 'indefinitePast', 'aDefinitePast']
+kokuyordu; ['verb', 'progressive', 'aDefinitePast']
+kokardı; ['verb', 'aorist', 'aDefinitePast']
+hatırlıyormuş; ['verb', 'progressive', 'aIndefinitePast']
+hatırlıyordu; ['verb', 'progressive', 'aDefinitePast']
+kanıyorsa; ['verb', 'progressive', 'aConditional']
+kaçıyorsun; ['verb', 'progressive', 'secondSingularEnding']
+kapat; ['verb']
+kapattı; ['verb', 'definitePast']
+kapatmış; ['verb', 'indefinitePast']
+kapatıyor; ['verb', 'progressive']
+kapatıyorum ; ['verb', 'progressive', 'firstSingularEnding']
+kapatıyordum ; ['verb', 'progressive', 'aDefinitePast', 'firstSingularDefEnding']
+kazandı ; ['verb', 'definitePast']
+kanardı; ['verb', 'aorist', 'aDefinitePast']
+kanamış; ['verb', 'indefinitePast']
+kanasın; ['verb', 'optative', 'secondSingularEnding']
+kazanır; ['verb', 'aorist']
+kazanırsınız; ['verb', 'aorist', 'secondPluralEnding']
+kazanırdınız ; ['verb', 'aorist', 'aDefinitePast', 'secondPluralDefEnding']
+kapanmıştı; ['verb', 'indefinitePast', 'aDefinitePast']
+kapanıyoruz; ['verb', 'progressive', 'firstPluralEnding']
+kazanıyorsanız ; ['verb', 'progressive', 'aConditional', 'secondPluralDefEnding']
+kazansaydı; ['verb', 'conditional', 'aDefinitePast']
+abartmış; ['verb', 'indefinitePast']
+abarttın; ['verb', 'definitePast', 'secondSingularDefEnding']
+abartıyor; ['verb', 'progressive']
+affettirdi; ['verb', 'definitePast']
+affetti; ['verb', 'definitePast']
+affedecek; [verb, future] 
+affederse; [verb, aorist, aConditional]
+anlatırım; ['verb', 'aorist', 'firstSingularEnding']
+anlatıyor; ['verb', 'progressive']
+anlatmıştı; ['verb', 'indefinitePast', 'aDefinitePast']
+anlamış; ['verb', 'indefinitePast']
+anlarmış; ['verb', 'aorist', 'aIndefinitePast']
+anlardı; ['verb', 'aorist', 'aDefinitePast']
+anlasaydı; ['verb', 'conditional', 'aDefinitePast']
+fırçaladı; ['verb', 'definitePast']
+fırlatıverdi; ['verb', 'definitePast']
+fırlatıvermiş; ['verb', 'indefinitePast']
+fırlatıvermişti; ['verb', 'indefinitePast', 'aDefinitePast']
+geliştirilir; ['verb', 'aorist']
+geliştirilebilir; ['verb', 'aorist']
+gezme; ['verb', 'negetion']
+gezmiş; ['verb', 'indefinitePast']
+gezsin; ['verb', 'thirdSingularImperative']
+geziyorsa; ['verb', 'progressive', 'aConditional']
+gezecekmiş; ['verb', 'future', 'aIndefinitePast']
+giyiniverdi; ['verb', 'definitePast']
+giyiniverirmiş; ['verb', 'aorist', 'aIndefinitePast']
+gönderildi; ['verb', 'definitePast']
+hatırla; ['verb']
+hatırlıyor; ['verb', 'progressive']
+hatırlar; ['verb', 'aorist']
+hatırlıyorsa; ['verb', 'progressive', 'aConditional']
+hatırlamıyorsa; ['verb', 'aNegetion', 'progressive', 'aConditional']
+ilgileniyor; ['verb', 'progressive']
+ilgilenir; ['verb', 'aorist']
+gülmüş; ['verb', 'indefinitePast']
+gülmüşse; ['verb', 'indefinitePast', 'aConditional']
+gülmüştü; ['verb', 'indefinitePast', 'aDefinitePast']
+gülmediyse; ['verb', 'negetion', 'definitePast', 'aConditional']
+Gülmüyorum; ['verb', 'aNegetion', 'progressive', 'firstSingularEnding']
+Güler; ['verb', 'aorist']
+Gülermiş; ['verb', 'aorist', 'aIndefinitePast']
+gülmezlermiş; false???
+kovsa; ['verb', 'conditional']
+kovmuyorsa; ['verb', 'aNegetion', 'progressive', 'aConditional']
+kovmuşsa; ['verb', 'indefinitePast', 'aConditional']
+kovmamışsa; ['verb', 'negetion', 'indefinitePast', 'aConditional']
+kovuyor; ['verb', 'progressive']
+gördü; ['verb', 'definitePast']
+görmüş; ['verb', 'indefinitePast']
+görme; ['verb', 'negetion']
+görmemiş; ['verb', 'negetion', 'indefinitePast']
+gönder; ['verb']
+gönderdi; ['verb', 'definitePast']
+gönderiyor; ['verb', 'progressive']
+göndermiyor; ['verb', 'aNegetion', 'progressive']
+mahvoldum; ['verb', 'definitePast', 'firstSingularDefEnding']
+mahvoluyorum; ['verb', 'progressive', 'firstSingularEnding']
+mahvolursam; ['verb', 'aorist', 'aConditional', 'firstSingularDefEnding']
+Güldürdü; ['verb', 'definitePast']
+Güldürecekti; ['verb', 'future', 'aDefinitePast']
+Gülecekmişiz; ['verb', 'future', 'aIndefinitePast', 'firstPluralEnding']
+nitelendirebildi; ['verb', 'definitePast']
+nitelendirebilirdi; ['verb', 'aorist', 'aDefinitePast']
+nitelendirebilirseler; ['verb', 'aorist', 'aConditional', 'thirdPluralDefEnding']
+onarıyor; ['verb', 'progressive']
+onarır; ['verb', 'aorist']
+onarmalı; ['verb', 'necessitative']
+onarmalıydı; ['verb', 'necessitative', 'aDefinitePast']
+onarmamalıydı; ['verb', 'negetion', 'necessitative', 'aDefinitePast']
+onarmamalıysa; ['verb', 'negetion', 'necessitative', 'aConditional']
+Rastladı; ['verb', 'definitePast']
+rastlamışız; ['verb', 'indefinitePast', 'firstPluralEnding']
+rastlanabilir; ['verb', 'aorist']
+sabunluyor; ['verb', 'progressive']
+sabunlamalı; ['verb', 'necessitative']
+yıkamadıysa; ['verb', 'negetion', 'definitePast', 'aConditional']
+yıkamamışsa; ['verb', 'negetion', 'indefinitePast', 'aConditional']
+yıkamıyorsa; ['verb', 'aNegetion', 'progressive', 'aConditional']
+yıkamamışsa; ['verb', 'negetion', 'indefinitePast', 'aConditional']
+saklan; ['verb']
+saklanma; ['verb', 'negetion']
+saklanmamalı; ['verb', 'negetion', 'necessitative']
+saklanmamışsa; ['verb', 'negetion', 'indefinitePast', 'aConditional']
+saklanıyormuş; ['verb', 'progressive', 'aIndefinitePast']
+saklanıyordu; ['verb', 'progressive', 'aDefinitePast']
+sallanabilirmiş; ['verb', 'aorist', 'aIndefinitePast']
+Sattı; ['verb', 'definitePast']
+Satar; ['verb', 'aorist']
+Satacaklarmış; false???
+Satarız; ['verb', 'aorist', 'firstPluralEnding']
+sattık; ['verb', 'definitePast', 'firstPluralDefEnding']
+satıyor; ['verb', 'progressive']
+satmıştı; ['verb', 'indefinitePast', 'aDefinitePast']
+satar; ['verb', 'aorist']
+satılabildi; ['verb', 'definitePast']
+çalıyorlar; ['verb', 'progressive', 'thirdPluralEnding']
+çalıyordunuz; ['verb', 'progressive', 'aDefinitePast', 'secondPluralDefEnding']
+çalmamalıydınız; ['verb', 'negetion', 'necessitative', 'aDefinitePast', 'secondPluralDefEnding']
+Aymadı; ['verb', 'negetion', 'definitePast']
+aymayacak; ['verb', 'negetion', 'future']
+ayılmıyor; ['verb', 'aNegetion', 'progressive']
+ayılmıyormuş; ['verb', 'aNegetion', 'progressive', 'aIndefinitePast']
+yaşarmışmış; ['verb', 'indefinitePast', 'aIndefinitePast']
+varırsanız; ['verb', 'aorist', 'aConditional', 'secondPluralDefEnding']
+varırsalar; ['verb', 'aorist', 'aConditional', 'thirdPluralDefEnding']
+varırlarsa; false???
+selamlayabiliyormuş; ['verb', 'progressive', 'aIndefinitePast']
+selamlayabilmişseniz; ['verb', 'indefinitePast', 'aConditional', 'secondPluralDefEnding']
+sessizleşmiş; ['verb', 'indefinitePast']
+sessizleşiyorsanız; ['verb', 'progressive', 'aConditional', 'secondPluralDefEnding']
+solmuşlar; ['verb', 'indefinitePast', 'thirdPluralEnding']
+solmuştular; ['verb', 'indefinitePast', 'aDefinitePast', 'thirdPluralDefEnding']
+solmuşlardı; false???
+sormuş; ['verb', 'indefinitePast']
+soruyormuş; ['verb', 'progressive', 'aIndefinitePast']
+sinirlendirmiş; ['verb', 'indefinitePast']
+sinirleniyormuşsa; false???
+sinirlenmemeliydi; ['verb', 'negetion', 'necessitative', 'aDefinitePast']
+Tadar; ['verb', 'aorist']
+Tattı; ['verb', 'definitePast']
+Tadarmış; ['verb', 'aorist', 'aIndefinitePast']
+Tadacağız; ['verb', 'softfuture', 'firstPluralEnding']
+tatmış; ['verb', 'indefinitePast']
+tutunuz; ['verb', 'secondPluralImperative']
+tuttunuz; ['verb', 'definitePast', 'secondPluralDefEnding']
+Tutmuşsun; ['verb', 'indefinitePast', 'secondSingularEnding']
+Tutuverdim; ['verb', 'definitePast', 'firstSingularDefEnding']
+Tutacaklar; ['verb', 'future', 'thirdPluralEnding']
+Unutmuşuz; ['verb', 'indefinitePast', 'firstPluralEnding']
+Unuturum; ['verb', 'aorist', 'firstSingularEnding']
+unuttum; ['verb', 'definitePast', 'firstSingularDefEnding']
+unutmasalardı; false???
+Unutmasalarmış; false???
+Unutuldum; ['verb', 'definitePast', 'firstSingularDefEnding']
+Unutulmuşuz; ['verb', 'indefinitePast', 'firstPluralEnding']
+uyandı; ['verb', 'definitePast']
+uyandırmış; ['verb', 'indefinitePast']
+Uyandırmamışsanız; ['verb', 'negetion', 'indefinitePast', 'aConditional', 'secondPluralDefEnding']
+Düşeyazdı; ['verb', 'definitePast']
+Öleyazmış; ['verb', 'indefinitePast']
+Gideyazdı; ['verb', 'definitePast']
+Başladı; ['verb', 'definitePast']
+Başlamış; ['verb', 'indefinitePast']
+Başlamışlar; ['verb', 'indefinitePast', 'thirdPluralEnding']
+Başlıyor; ['verb', 'progressive']
+Başlayacağım; ['verb', 'softfuture', 'firstSingularEnding']
+Başlayıverdi; ['verb', 'definitePast']
+Başlattım; ['verb', 'definitePast', 'firstSingularDefEnding']
+Başlatmıştık; ['verb', 'indefinitePast', 'aDefinitePast', 'firstPluralDefEnding']
+Başlamadık; ['verb', 'negetion', 'definitePast', 'firstPluralDefEnding']
+Başkalaşmış; ['verb', 'indefinitePast']
+Başkalaşmışlar; ['verb', 'indefinitePast', 'thirdPluralEnding']
+Başkalaştık; ['verb', 'definitePast', 'firstPluralDefEnding']
+Yenilemişler; ['verb', 'indefinitePast', 'thirdPluralEnding']
+Yenilenmişiz; ['verb', 'indefinitePast', 'firstPluralEnding']
+Yeniledik; ['verb', 'definitePast', 'firstPluralDefEnding']
+Yenilendim; ['verb', 'definitePast', 'firstSingularDefEnding']
+Yenileneceğiz; ['verb', 'softfuture', 'firstPluralEnding']
+Seçtim; ['verb', 'definitePast', 'firstSingularDefEnding']
+Seçmişiz; ['verb', 'indefinitePast', 'firstPluralEnding']
+Seçilmiş; ['verb', 'indefinitePast']
+Seçeceğiz; ['verb', 'softfuture', 'firstPluralEnding']
+Seçildik; ['verb', 'definitePast', 'firstPluralDefEnding']
+Seçilir; ['verb', 'aorist']
+Seçilecekler; ['verb', 'future', 'thirdPluralEnding']
+Izlendik; ['verb', 'definitePast', 'firstPluralDefEnding']
+Izlemiştik; ['verb', 'indefinitePast', 'aDefinitePast', 'firstPluralDefEnding']
+Izledim; ['verb', 'definitePast', 'firstSingularDefEnding']
+izlenecek; ['verb', 'future']
+Yazar; ['verb', 'aorist']
+izlenacak; false
+almalıdılar; false
+alme; false
+alınızdı; false
+aler; false
+aldiniz; false
+alasınızmış; false
+alamazdır; false
+almez; false
+almelisınız; false
+alsin; false
+almazsiniz; false
+alamamalımış; false
+katladi; false
+katlasındi; false
+katlayalim; false
+katlayınacak; false
+katlarmışdım; false
+katlamamdır; false
+katlayamışmam; false
+katlardik; false
+katlayacağdi; false
+katlımışyorsun; false
+katladıkmıştı; false
+katlayabilirsindir; false
+katlamalıler; false
+katler; false
+katlarızmış; false
+yapaceğim; false
+yapdır; false
+yapiniz; false
+yapmışma; false
+yapıyordumum; false
+yapdımmış; false
+yapardımım; false
+yapmem; false
+yapabilirım; false
+yapamem; false
+yapmeliyim; false
+yaparmışdım; false
+yapıyormuşdum; false
+yapmişım; false
+yapmışlarım; false
+yapecekdım; false
+yaptırmıştıdım; false
+yapaım; false
+yapamışlım; false
+yapsin; false
+yaparmışsam; false
+yapsaydimlar; false
+yaptığımma; false
+yapayacağım; false
+yapacağımlar; false
+yapmışsin; false
+yapemadan; false
+bükyecek; false
+bükmezli; false
+bükemişmez; false
+bükmalı; false
+bükememelimiş; false
+büktünyor; false
+büksünmışler; false
+gidemişlim; false
+gideceğimler; false
+gitmeliyor; false
+gidebilirimezim; false
+gidersa; false
+gitmaz; false
+gityorin; false
+gitsinyor; false
+gitmeliyor; false
+gitmelimişsin; false
+gidersam; false
+gideryorseniz; false
+gitmektemiş; false
+patlamışızlar; false
+patlasin; false
+patlameli; false
+patlayecek; false
+patlasınyor; false
+patlasınmışlar; false
+patlamalılarde; false
+patayamayorsın; false
+patlayınmışız; false
+patlıyordunmuş; false
+patlayecektım; false
+patlarmasın; false
+patlayayımdır; false
+patlasayyordın; false
+patlayaceğim; false
+içiyorim; false
+içma; false
+içsın; false
+içtiyorler; false
+içermiyizim; false
+içermiştiğim; false
+içerdiğimler; false
+içmiştırler; false
+içmezden; false
+içtığım; false
+içemişmedi; false
+içemişmez; false
+içeceyorğiz; false
+içersınız; false
+içtikler; false
+içmemler; false
+gideyor; false
+gitdikyor; false

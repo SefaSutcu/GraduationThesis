@@ -1,0 +1,42 @@
+:- include(morph_analyzer).
+
+read_file(Stream,[]):-
+    at_end_of_stream(Stream).
+
+read_file(Stream,[X|L]):-
+    \+ at_end_of_stream(Stream),
+    read(Stream,X),
+    read_file(Stream,L).
+    
+    
+testin([]).
+testin([H|T]):-
+   term_to_atom(H,Line),
+   split_string(Line, ";", "", [TestWord, TrueResult]),
+   parse(TestWord,X),
+   atomic_list_concat(X, ',', TestAtom),
+   atom_string(TestAtom, TestResult),
+   assertion(TrueResult==TestResult),
+   testin(T).
+   
+false_test([]).
+false_test([H|T]):-
+  term_to_atom(H,TestWord),
+  \+ parse(TestWord,X),
+  false_test(T).
+
+:- begin_tests(parse).
+
+test(1):-
+   open('testtext.txt', read, Str),
+   read_file(Str, Lines),
+   close(Str),
+   testin(Lines).
+
+test(2) :-
+   open('false_words.txt', read, Str),
+   read_file(Str,Lines),
+   close(Str),
+   false_test(Lines).
+
+:- end_tests(parse).
